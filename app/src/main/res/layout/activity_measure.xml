@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MeasureActivity">
+
+    <TextView
+        android:id="@+id/txt_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:layout_margin="20dp"
+        android:text="result" />
+
+    <EditText
+        android:id="@+id/edt_station"
+        android:hint="측정소 이름을 입력해주세요"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/btn_air_status"
+        android:layout_width="match_parent"
+        android:background="@color/blue"
+        android:textColor="@color/White"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="대기오염 조회하기"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
